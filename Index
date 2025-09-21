@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabelCam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Menu latéral -->
+    <nav class="sidebar">
+      <h2 class="logo">⚔️ LabelCam</h2>
+      <ul>
+        <li><a href="#" onclick="showSection('accueil')">Accueil</a></li>
+        <li><a href="#" onclick="showSection('projets')">Projets</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenu -->
+    <main class="content">
+      <section id="accueil" class="active">
+        <h1>Bienvenue sur LabelCam</h1>
+        <p>Un univers médiéval immersif pour ton projet.</p>
+      </section>
+
+      <section id="projets">
+        <h1>Nos Projets</h1>
+        <p>Ici tu pourras détailler tes projets de labélisation.</p>
+      </section>
+
+      <section id="contact">
+        <h1>Contact</h1>
+        <p>Tu peux mettre ici ton mail, formulaire ou réseaux sociaux.</p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
