@@ -1,0 +1,6 @@
+LABEL-CAM/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+     └── bg.jpg
